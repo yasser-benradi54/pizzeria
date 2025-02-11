@@ -128,10 +128,10 @@ function ajouterAuPanier(pizza, quantite) {
     commandeItem.dataset.quantite = quantite;
 
     const nomPizza = document.createElement("h3");
-    nomPizza.textContent = `${pizza.nom} x ${quantite}`;
+    nomPizza.textContent = `${pizza.prix_pizza} x ${quantite_commande}`;
 
     const prixItem = document.createElement("p");
-    prixItem.textContent = `Prix total: ${pizza.prix * quantite}€`;
+    prixItem.textContent = `Prix total: ${pizza.prix * quantite_commande}€`;
 
     const boutonSupprimer = document.createElement("button");
     boutonSupprimer.textContent = "Supprimer";
