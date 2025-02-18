@@ -35,25 +35,22 @@
       </nav>
     </header>
 
-    <!DOCTYPE html>
-<html lang="fr">
-<head>
+ 
+
 <section class="contenu">
       <h1 class="titre">Mama Maglione</h1>
       <div class="slider">
         <div class="slider_nav">
           <button
             class="slider_nav_button slider_nav_button_previous"
-            id="precedent"
-          >
+            id="precedent">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               fill="none"
               viewBox="0 0 24 24"
               stroke-width="1.5"
               stroke="currentColor"
-              class="size-6"
-            >
+              class="size-6">
               <path
                 stroke-linecap="round"
                 stroke-linejoin="round"
@@ -125,6 +122,27 @@
     <menu id="carte"></menu>
     
    <!-- Bouton pour ouvrir le panier -->
+   <div id="login-form">
+    <h2>Connexion</h2>
+    <form id="loginForm">
+        <input type="email" name="email" placeholder="Email" required>
+        <input type="password" name="mot_de_passe" placeholder="Mot de passe" required>
+        <button type="submit">Se connecter</button>
+    </form>
+</div>
+
+<div id="register-form">
+    <h2>Inscription</h2>
+    <form id="registerForm">
+        <input type="text" name="nom" placeholder="Nom" required>
+        <input type="text" name="prenom" placeholder="Prénom" required>
+        <input type="text" name="adresse" placeholder="Adresse" required>
+        <input type="text" name="telephone" placeholder="Téléphone" required>
+        <input type="email" name="email" placeholder="Email" required>
+        <input type="password" name="mot_de_passe" placeholder="Mot de passe" required>
+        <button type="submit">S'inscrire</button>
+    </form>
+</div>
 
 
 <!-- Pop-up du panier -->

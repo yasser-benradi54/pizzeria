@@ -43,3 +43,4 @@ class DB extends \PDO {
     }
  
 }
+?>

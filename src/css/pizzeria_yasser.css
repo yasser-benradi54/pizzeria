@@ -230,24 +230,24 @@ h2 {
 .menu h2 {
   text-transform: uppercase;
   text-decoration: underline;
-  color: wheat;
+  color: black;
 }
 
 .menu p {
   text-transform: capitalize;
   text-decoration: wavy;
-  color: wheat;
+  color: black;
 }
 
 .menu h6 {
   font-size: 50px;
-  color: wheat;
+  color: black;
 }
 
 menu img{
   width: 400px;
-  height: 300px;
-  border-radius: 5px;
+  height: 400px;
+  border-radius: 10px;
 }
 
 menu {
